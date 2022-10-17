@@ -2,3 +2,10 @@
 # Пример:
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
+
+import math
+list = [2, 3, 4, 5, 6]
+resultat = []
+for i in range (math.ceil (len(list)/2)):
+    resultat.append(list [i]*list[-i-1])
+print (resultat)

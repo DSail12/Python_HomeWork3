@@ -4,6 +4,6 @@
 
 list = [2, 3, 5, 9, 3]
 resultat = 0
-for i in range (0, len (list),2):
+for i in range (1, len (list),2):
     resultat += list [i]
-    print ("Сумма элементов списка, стоящих на нечетной позиции: ", resultat)
+print ("Сумма элементов списка, стоящих на нечетной позиции: ", resultat)
